@@ -1,0 +1,39 @@
+body{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+table{
+	position:relative;
+	left:40%;
+	top:0%;
+}
+table td{
+	border: 1px solid black;
+	width:40px;
+	height:40px;
+	background-color:white;
+	font-size:20px;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+#d{
+	position:relative;
+	left:40%;
+	top:10px;
+}
+#go{
+	cursor:pointer;
+}
+._l{
+	border-left: 2px solid black;
+}
+._r{
+	border-right: 2px solid black;
+}
+._b{
+	border-bottom: 2px solid black;
+}
+._t{
+	border-top: 2px solid black;
+}
