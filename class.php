@@ -86,7 +86,7 @@ class Sudoku{
 					for($m = 0; $m < 3; $m++)
 						for($n = 0; $n < 3; $n++) { $im = $i + $m; $jn = $j + $n; $mb[] = $ar[$im.$jn]; }
 				
-				if(!eregi("^[1-9]+$", $ar[$j.$i]) && $ar[$j.$i] != "") 
+				if(!preg_match("/^[1-9]+$/", $ar[$j.$i]) && $ar[$j.$i] != "") 
 					$this->Err("Недопустимый символ: ".$ar[$j.$i]);
 			}
 			
