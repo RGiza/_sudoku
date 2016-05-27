@@ -33,8 +33,9 @@
 			}
 			$t .= "</tr>";
 		}
-		$t .= "</table><div id = 'd'>Решить: Enter<br>Перемещение: &lArr;&uArr;&rArr;&dArr;<br>Стереть символ: Delete<br><button onclick='LoadTZ()'>Установить значения ТЗ</button>&nbsp;<button onclick='Clean()'>Отчистить</button>&nbsp;<button onclick='Step()'>Решить</button></div></body>";
+		$t .= "</table><div id = 'd'>Решить: Enter<br>Перемещение: &lArr;&uArr;&rArr;&dArr;<br>Стереть символ: Delete<br>Ввод строкой: <input id='lineInput' autofocus required size='81' /><br><br><button onclick='Clean()'>Отчистить</button>&nbsp;<button id='step' onclick='Step()'>Решить</button></div></body>";
 		echo $t;
+                //<button onclick='LoadTZ()'>Установить значения ТЗ</button>&nbsp;
 	}
 	else{
 		include_once('class.php');

@@ -37,3 +37,6 @@ table td{
 ._t{
 	border-top: 2px solid black;
 }
+#lineInput{
+    width: 300px;
+}
